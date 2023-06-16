@@ -1,0 +1,177 @@
+
+
+.eee{
+    
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(9, 59, 196);
+    width: 100%;
+    height: 1000px;
+    float: left;
+    border-radius: 50px;
+    background: url(18.jpg);
+    
+    background-size: cover;
+    }
+    .eee marquee{
+        
+        background-size: cover;
+        
+    font-size: 100%;
+    height: 100%;
+    
+    }
+   
+    .iii{
+        text-decoration: none;
+        text-align: center;
+            display: flex;
+            justify-content: space-around;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        text-transform: capitalize;
+        background-color: rgba(115, 9, 185, 0.925);
+        width: 100%;
+    margin-top: +100px;
+        
+        }
+    .iii a{
+    
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.4s;
+    }
+     div  a:hover{
+    
+        color: rgb(105, 8, 92);
+        
+    }
+
+
+
+main{
+
+    margin: 0;
+padding: 0;
+background: url(12.pg);
+  background-size:cover ; 
+font-family: sans-serif;
+
+}
+
+
+.nadia {
+width: 100%;
+display: flex;
+justify-content: space-around;
+
+flex-wrap: wrap;
+}
+ .image {
+margin: 30px auto;
+width: 700px;
+height:700px;
+border-radius: 40px;
+cursor: pointer;
+box-shadow: 5px 5px 30px rgba(34, 120, 219, 0.25),-5px -5px 30px 7px rgba(13, 113, 243, 0.22) ;
+transition: 0.4s;
+
+}
+.imge {
+
+    width: inherit;
+    height:inherit;
+    
+}
+.imge img {
+
+width: inherit;
+height:inherit;
+border-radius: 50px;
+object-fit: cover;
+}
+
+.image :hover{
+
+transform: scale(1,1);
+box-shadow: 5px 5px 30px 15px #ffffff, -5px -5px 30px 15px  rgb(255, 255, 255);
+
+}
+
+.image :focus{
+
+
+    transform: scale(2,1);
+
+
+}
+
+
+nav{
+
+padding-top: 5rem;
+padding-left: 100px;
+padding-right: 100px;
+display: flex;
+justify-content: space-between;
+
+align-items:center;
+
+
+}
+
+.iii{
+    text-decoration: none;
+    text-align: center;
+        display: flex;
+        justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: capitalize;
+    background-color: rgba(216, 14, 235, 0.87);
+    width: 100%;
+    
+    }
+.iii a{
+
+color: black;
+text-transform: capitalize;
+text-decoration: none;
+transition: 0.4s;
+}
+ div  a:hover{
+
+    color: blanchedalmond;
+    
+}
+
+
+#lmlm{
+font-size: 200px;
+float: left;
+font-family: fantasy;
+justify-content: space-around;
+text-align: right;
+text-rendering: auto;
+color: #480655;
+height: 100%;
+
+}
+#lmlm span{
+font-size: 170px;
+
+
+color: #a00cdb;
+text-decoration: #480655;
+top: 100px;
+}
+header{
+border: rgb(0, 0, 0) solid;
+
+}
+h1{
+    font-size: 50px;
+}

@@ -1,0 +1,188 @@
+
+
+ /* خاص بتعديل رأسية الواجهة */
+    header{
+
+        background: url(5.jpeg);
+        background-size: cover;
+
+    }
+
+
+
+
+
+main{
+
+    margin: 0;
+padding: 0;
+background: url(2.pg);
+background-size: cover;
+font-family: sans-serif;
+background-color:
+}
+
+/*  تعديل الصور */
+.nadia {
+width: 100%;
+display: flex;
+justify-content: space-around;
+
+flex-wrap: wrap;
+}
+ .image {
+margin: 30px auto;
+width: 600px;
+height:600px;
+border-radius: 40px;
+cursor: pointer;
+box-shadow: 5px 5px 30px rgba(34, 120, 219, 0.25),-5px -5px 30px 7px rgba(13, 113, 243, 0.22) ;
+transition: 0.4s;
+
+}
+.imge {
+
+    width: inherit;
+    height:inherit;
+    
+}
+.imge img {
+
+width: inherit;
+height:inherit;
+border-radius: 50px;
+object-fit: cover;
+}
+.image :hover{
+
+    transform: scale(1,1);
+    box-shadow: 5px 5px 30px 15px #ffffff, -5px -5px 30px 15px  rgb(255, 255, 255);
+    
+
+}
+
+
+
+/*
+nav{
+
+padding-top: 5rem;
+padding-left: 100px;
+padding-right: 100px;
+display: flex;
+justify-content: space-between;
+
+align-items:center;
+
+
+}
+*/
+/*  خاص بتعديل شريط التنقل */
+.iii{
+    
+    text-align: center;
+        display: flex;
+        justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    width: 100%;
+margin-top: +100px;
+position: sticky;
+background-color: #DB7093;
+width: 100%;
+height: 150px;
+top: 100%;
+    }
+.iii a{
+
+color: rgb(255, 255, 255);
+text-transform: capitalize;
+text-decoration: none;
+transition: 0.4s;
+}
+
+/* عنوان الواجهة*/
+#lmlm{
+font-size: 400px;
+float: left;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+justify-content: space-around;
+text-align: right;
+text-rendering: auto;
+color: #020002f1;
+height: 100%;
+text-align: center;
+top: 20px;
+margin-top: 100px;
+padding-top: 40px;
+}
+#lmlm span{
+font-size: 300px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+color: #7a086b;
+
+top: 100px;
+}
+
+
+h1{
+    font-size: 50px;
+} 
+/* الاسعار المكتوبة على الصور */
+
+.title{
+ color: #000000;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: 50px;
+font-weight: bold;
+margin-top: -60px;
+text-shadow: 3px 3px #160303;
+}
+.eee{
+    
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(9, 59, 196);
+    width: 100%;
+    height: 1000px;
+    float: left;
+  display: flex;
+    background: url(5.jpeg);
+    position: relative;
+    background-size: cover;
+    }
+    
+   
+   
+    
+    
+   
+
+/* خاص بتعديل  قائمة اسفل عنوان الواجهة */
+    ul{
+             font-size: 100px;
+            padding-top: px;
+            padding-left: 0;
+            padding-right: 2500px;
+            float:right;
+            margin-top: -250px;
+            font-size: 100px;
+            font-weight: 200px;
+            color: rgb(0, 0, 0);
+         font-family: fantasy;
+    }
+    ul p{
+          color: rgb(185, 11, 11);
+          font-size: 20px;
+
+    }
+ 
+      /* شريط اسفل الواجهة */  
+ footer{
+
+               text-align: center;
+               font-size: 50px;
+ }
